@@ -1,0 +1,6 @@
+.showAddEmployee{
+transition: 1.4s ease-in-out;
+width: 50vw;
+height: 35vw;
+opacity: 1;
+}

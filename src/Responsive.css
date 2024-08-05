@@ -1,0 +1,421 @@
+@media screen and (max-width: 1728px) and (min-width: 750px) {
+/* nav start */
+.employeeApp{
+  font-size: 5vw;
+}
+nav{
+  height: 15vw;
+  width: auto;
+}
+.darkMode{
+  width: 10vw;
+  height: 5vw;
+  font-size: 5vw;
+}
+
+#searchId{
+  font-size: 6vw;
+}
+
+/* nav end */
+  /* employeeDataDiv start */
+  .employeeDataDiv {
+    border-radius: 2vw;
+    width: 65vw;
+    height: 56vw;
+  }
+  .fa-plus{
+    font-size: 1.4vw;
+    font-weight: bolder;
+  }
+
+  /* left start */
+  .left {
+    height: 56vw;
+
+  }
+
+  .employeeDataDiv .left .fa-image {
+    font-size: 15vw;
+    margin: 2vw 2vw;
+  }
+
+  #addImg {
+    margin: 2vw 2vw;
+    width: 15vw;
+    height: 13.9vw;
+
+  }
+
+  /* left end */
+
+  /* right start */
+  .right {
+    padding: 5vw 0;
+  }
+
+  .fa-delete-left {
+    position: relative;
+    left: 35vw;
+    bottom: 4vw;
+    font-size: 7vw;
+    color: white;
+  }
+
+  input {
+    width: 39vw;
+    height: 8vw;
+    margin: 0 2vw;
+    font-size: 4vw;
+
+  }
+
+  input::placeholder {
+    font-size: 4vw;
+  }
+
+  .saveData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #saveDataBtn {
+    width: 30vw;
+    height: 6vw;
+    font-size: 5vw;
+    position: relative;
+    top: 6vw;
+  }
+
+  /* right end */
+  /* employeeDataDiv end */
+
+
+  /* storeEmployeeData start */
+ 
+
+  .storeEmployeeData table {
+    position: relative;
+    left: 4vw;
+    bottom: 5vw;
+    width: 50vw;
+    height: auto;
+  }
+  .fa-pen-to-square, .fa-trash-can{
+    font-size: 5vw;
+  }
+  
+  td {
+    padding: 0 4.3vw;
+  }
+
+  th,
+  td {
+    height: 15vw;
+    font-size: 3vw;
+  }
+
+  th {
+    border-bottom: 0.5px solid blue;
+    border-bottom-style: dashed;
+    color: white;
+    background-color: rgb(194, 128, 128);
+  }
+
+  /* storeEmployeeData end */
+
+
+}
+
+@media screen and (max-width:712px) {
+/* nav start */
+nav{
+  height: 13vw;
+}
+h2{
+  font-size: 5vw;
+}
+.darkMode{
+  width: 10vw;
+  height: 5vw;
+  font-size: 5vw;
+}
+
+
+#searchId{
+  position: relative;
+  top: 0vw;
+  color: white;
+  font-size: 4vw;
+ }
+
+
+/* nav end */
+
+
+
+
+  .addEmployee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fa-plus {
+    font-size: 2vw;
+    font-weight: 900;
+    letter-spacing: 0.4vw;
+  }
+
+  /* employeeDataDiv start */
+  .employeeDataDiv {
+
+    width: 93vw;
+    height: 85vw;
+
+    margin: 0 7vw;
+    position: relative;
+    bottom: 1vw;
+  }
+
+  /* left start */
+  .left {
+    width: 30vw;
+    height: 85vw;
+
+  }
+
+  .employeeDataDiv .left .fa-image {
+    letter-spacing: 1vw;
+    font-size: 11vw;
+    margin: 2vw 9vw;
+  }
+
+  #addImg {
+
+    margin: 2vw 9vw;
+
+  }
+
+  #addImg {
+    font-size: 8.5vw;
+    width: 11vw;
+    height: 10.1vw;
+  }
+
+  /* left end */
+
+  /* right start */
+  .right {
+    height: auto;
+  }
+
+  .fa-delete-left {
+    position: relative;
+    left: 50vw;
+    bottom: 0.5vw;
+    font-size: 10vw;
+  }
+
+  input {
+    position: relative;
+    bottom: 7vw;
+    width: 37vw;
+    height: auto;
+    margin: 4vw 7vw;
+    font-size: 5.5vw;
+
+  }
+
+  input::placeholder {
+    font-size: 3.5vw;
+
+  }
+
+  .saveData {
+    position: relative;
+    bottom: 7vw;
+  }
+
+  #saveDataBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 10vw;
+    font-size: 5vw;
+    top: 10vw;
+  }
+
+  /* right end */
+
+
+
+  /* employeeDataDiv end */
+
+  /* storeEmployeeData start */
+ 
+
+ 
+  .fa-pen-to-square, .fa-trash-can{
+    font-size: 8vw;
+  }
+th, td{
+  font-size: 3vw;
+}
+  td {
+    padding: 3vw 5.2vw;
+  }
+
+  /* storeEmployeeData end */
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:620px) {
+ /* nav start */
+  nav{
+width: 163vw;
+height: 20vw;
+font-size: 3vw;
+  }
+  .employeeApp{
+    position: relative;
+    left: 2vw;
+  }
+  .darkMode{
+    width: 25vw;
+    height: 15vw;
+    font-size: 14vw;
+  }
+
+  
+  
+  #searchId{
+    position: relative;
+    top: 0vw;
+    color: white;
+    font-size: 7vw;
+   }
+  
+
+  /* nav end */
+
+  /* addEmployee  end  */
+
+  .addEmployee {
+position: relative;
+left: 27vw;
+  }
+
+  .fa-plus {
+    font-size: 3vw;
+    width: 40vw;
+    height: 10vw;
+    font-weight: 900;
+    letter-spacing: 0.4vw;
+  }
+
+  /* addEmployee  end  */
+
+  /* employeeDataDiv start */
+  .employeeDataDiv {
+    width: 99vw;
+    height: 95vw;
+    margin: 7vw 28vw;
+  }
+
+  /* left start */
+  .left {
+    width: 35vw;
+    height: 95vw;
+
+  }
+
+  .employeeDataDiv .left .fa-image {
+    font-size: 19vw;
+    margin: 2vw 9vw;
+  }
+
+  #addImg {
+
+    margin: 3.5vw 9vw;
+
+  }
+
+  #addImg {
+
+    font-size: 12vw;
+    width: 19vw;
+    height: 16vw;
+
+
+  }
+
+  /* left end */
+
+  /* right start */
+  
+
+  input {
+    position: relative;
+    bottom: 3vw;
+
+  }
+
+  .saveData {
+    position: relative;
+    bottom: 5vw;
+  }
+
+  /* right end */
+
+
+  /* employeeDataDiv end */
+
+  /*storeEmployeeData start  */
+ 
+
+  .storeEmployeeData table {
+    height: auto;
+    position: relative;
+    left:5vw;
+
+  }
+  .fa-pen-to-square, .fa-trash-can{
+    font-size: 14vw;
+  }
+
+  td {
+    padding: 5vw 7.3vw;
+
+  }
+
+  th,
+  td {
+
+    /* width: 10vw; */
+    height: 17vw;
+    border: none;
+    border-right: 0.5px solid blue;
+    border-right-style: dashed;
+    font-size: 4vw;
+  }
+
+  th {
+    border-bottom: 0.5px solid blue;
+    border-bottom-style: dashed;
+    background-color: rgb(194, 128, 128);
+  }
+
+  /*storeEmployeeData end  */
+
+}
